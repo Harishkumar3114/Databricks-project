@@ -1,0 +1,19 @@
+{
+  "id": "4bdc426f-00ee-4770-b240-1ff9daf8c9b8",
+  "pipeline_type": "WORKSPACE",
+  "name": "Gold_Pipeline",
+  "libraries": [
+    {
+      "glob": {
+        "include": "/Workspace/Users/crharishkumar88@gmail.com/Databricks_Project/Gold_Products"
+      }
+    }
+  ],
+  "schema": "gold",
+  "continuous": false,
+  "development": false,
+  "photon": true,
+  "channel": "CURRENT",
+  "catalog": "databricks_catalog",
+  "serverless": true
+}
