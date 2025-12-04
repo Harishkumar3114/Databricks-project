@@ -11,7 +11,7 @@ The solution leverages the Medallion Architecture (Bronze, Silver, Gold) and Uni
 ## High-Level Architecture
 The following diagram represents the overall architecture for the solution pipeline.
 
-![Architecture Diagram](Databricks_arch.png)
+![Architecture Diagram](./Databricks_arch.png)
 
 ---
 
@@ -35,14 +35,14 @@ The following diagram represents the overall architecture for the solution pipel
 ## Databricks Job Workflow Diagram
 This represents the full end-to-end execution pipeline inside Databricks.
 
-![Job Workflow Diagram](End-To-End_Pipeline.png)
+![Job Workflow Diagram](./End-To-End_Pipeline.png)
 
 ---
 
 ## Delta Live Tables Gold Pipeline
 The DLT pipeline performs streaming ingestion, transformation, and creation of business-ready tables.
 
-![Gold DLT Pipeline](Gold_Products_Pipeline.png)
+![Gold DLT Pipeline](./Gold_Products_Pipeline.png)
 
 ---
 
